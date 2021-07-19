@@ -1,0 +1,28 @@
+
+.eranClass{
+  color:rgb(156, 11, 11);
+  font-weight: bolder;
+  font-size: 40px;
+  text-shadow:2px 2px gray;
+}
+
+#bolderHeader{
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+  .container-btn {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .card{
+    justify-content: space-between;
+     background-Size: auto;
+     background-Position: center ;
+  }
+
