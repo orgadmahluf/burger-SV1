@@ -7,8 +7,12 @@ import PrivateRoute from "../CurrentUser/PrivateRoute"
 import CurrentUser from "../CurrentUser/PrivateRoute"
 import ForgotPassword from '../ForgetPassword/ForgotPassword'
 import Parent from '../BackgroundImage/Parent'
+import Weather from "../Weather/Weather";
 import './App.css'
 function App() {
+ 
+
+ 
   return (
     <>
       <div>
@@ -28,6 +32,7 @@ function App() {
           </Parent>
         </AuthProvider>
       </Router>
+      <Weather/>
       </div>
     </>
   );
