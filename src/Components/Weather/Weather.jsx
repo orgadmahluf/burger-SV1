@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 export default function Weather() {
   
   const [apiData, setApiData] = useState({});
-  const [getState, setGetState] = useState('tamilnadu');
-  const [state, setState] = useState('tamilnadu');  
+  const [getState, setGetState] = useState('Tel Aviv');
+  const [state, setState] = useState('Tel Aviv');  
 
   const apiKey = 'cc5ee6501eb7f9a25d070d475e2bc522';
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${state}&appid=${apiKey}`;
